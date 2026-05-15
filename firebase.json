@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "drivemateapk",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/*.apk",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

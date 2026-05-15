@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DriveMate | Smart Roadside Assistance</title>
+    <meta
+      name="description"
+      content="DriveMate is a mobile roadside assistance platform that connects drivers with nearby service providers in real time."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-mark">
+        <div class="loader-brand">DriveMate</div>
+        <div class="loader-line"></div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#top">DriveMate</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary">
+          <a class="is-active" href="#features">Features</a>
+          <a href="#showcase">Screenshots</a>
+          <a href="#timeline">How It Works</a>
+          <a href="#download">Download</a>
+        </nav>
+        <a
+          class="button button-primary button-small desktop-cta"
+          href="https://github.com/ravidugunawardhana/Drive-Mate-Landing-Page/raw/main/public/app-release.apk"
+        >
+          Download App
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="hero-badges">
+              <span class="chip">Flutter Powered</span>
+              <span class="chip chip-muted">Firebase Backend</span>
+            </div>
+            <h1>
+              Smart roadside assistance
+              <span>anytime, anywhere.</span>
+            </h1>
+            <p>
+              DriveMate helps stranded drivers reach nearby mechanics faster with
+              live location sharing, SOS broadcasting, provider discovery, and a
+              streamlined mobile workflow built for emergency conditions.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="https://github.com/ravidugunawardhana/Drive-Mate-Landing-Page/raw/main/public/app-release.apk"
+              >
+                Download App
+              </a>
+              <a class="button button-secondary" href="#features">Explore Features</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="phone-stack">
+              <div class="phone-card phone-front">
+                <div class="phone-screen shot-screen">
+                  <img class="phone-shot" src="./home.jpeg" alt="DriveMate home screen" />
+                </div>
+              </div>
+              <div class="phone-card phone-middle">
+                <div class="phone-screen shot-screen">
+                  <img class="phone-shot" src="./Map.jpeg" alt="DriveMate live map view" />
+                </div>
+              </div>
+              <div class="phone-card phone-back">
+                <div class="phone-screen shot-screen">
+                  <img class="phone-shot" src="./driver.jpeg" alt="DriveMate driver dashboard" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <h2>What DriveMate Solves</h2>
+            <p>
+              Traditional roadside support is slow, opaque, and difficult to
+              coordinate. DriveMate turns that process into a live service flow
+              with visibility for both drivers and providers.
+            </p>
+          </div>
+
+          <div class="feature-cards">
+            <article class="glass-card reveal">
+              <div class="icon-badge">01</div>
+              <h3>Find Nearby Help</h3>
+              <p>Scan within a 2km radius and identify available mechanics in seconds.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="icon-badge">02</div>
+              <h3>Request Instant SOS</h3>
+              <p>Broadcast an emergency service request with a single action from the app.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="icon-badge">03</div>
+              <h3>Track the Response</h3>
+              <p>Follow the provider arrival in real time and review the completed service.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-cards">
+          <article class="problem-card reveal">
+            <h3>The Problem</h3>
+            <ul>
+              <li>Long waits for towing and informal roadside support.</li>
+              <li>No real-time visibility into responder location or ETA.</li>
+              <li>Unclear provider quality and inconsistent communication.</li>
+            </ul>
+          </article>
+          <article class="solution-card reveal">
+            <h3>The DriveMate Solution</h3>
+            <ul>
+              <li>Immediate matching with nearby service providers.</li>
+              <li>Live map-based tracking through a mobile-first workflow.</li>
+              <li>Ratings, history, and provider-side tools for better accountability.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="features">
+        <div class="container">
+          <div class="key-features-panel reveal">
+            <div class="key-features-heading">
+              <div class="key-features-line"></div>
+              <h2>High-Performance Features</h2>
+            </div>
+            <ul class="key-features-list">
+              <li>Real-time GPS location detection and provider discovery.</li>
+              <li>2km smart matching for rapid service dispatch.</li>
+              <li>Emergency SOS flow for urgent roadside breakdowns.</li>
+              <li>Google Maps-based tracking and route visibility.</li>
+              <li>Provider dashboard for handling incoming requests.</li>
+              <li>History, ratings, and admin-level oversight for service quality.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>The Digital Engine</h2>
+            <p>
+              The project combines a mobile client, cloud-backed data flow, and
+              geolocation features into a focused roadside assistance platform.
+            </p>
+          </div>
+          <div class="engine-grid">
+            <article class="engine-card accent-cyan reveal">
+              <h3>Flutter &amp; Dart</h3>
+              <p>Cross-platform mobile development with a single codebase and responsive UI.</p>
+            </article>
+            <article class="engine-card accent-red reveal">
+              <h3>Firebase Cloud</h3>
+              <p>Authentication, real-time data, and scalable backend support for live operations.</p>
+            </article>
+            <article class="engine-card accent-warm reveal">
+              <h3>Google Maps</h3>
+              <p>Location intelligence, route visualization, and real-time responder tracking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-showcase" id="showcase">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <h2>Interface Showcase</h2>
+            <p>
+              Real screens from the DriveMate app across the driver journey,
+              live map flow, and provider operations view.
+            </p>
+          </div>
+          <div class="showcase-grid">
+            <article class="showcase-card reveal">
+              <div class="app-phone driver-phone">
+                <div class="app-ui shot-screen">
+                  <img class="phone-shot" src="./home.jpeg" alt="Driver home interface" />
+                </div>
+              </div>
+              <h3>Driver Home</h3>
+            </article>
+            <article class="showcase-card reveal">
+              <div class="app-phone provider-phone">
+                <div class="app-ui shot-screen">
+                  <img
+                    class="phone-shot"
+                    src="./Providerdashboard.jpeg"
+                    alt="Provider dashboard interface"
+                  />
+                </div>
+              </div>
+              <h3>Provider Dashboard</h3>
+            </article>
+            <article class="showcase-card reveal">
+              <div class="app-phone admin-phone">
+                <div class="app-ui shot-screen">
+                  <img class="phone-shot" src="./Map.jpeg" alt="Live map tracking interface" />
+                </div>
+              </div>
+              <h3>Live Map Tracking</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="timeline">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <h2>How It Works</h2>
+            <p>
+              The flow is deliberately simple so a driver can request help under
+              stress with minimal friction.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="reveal">
+              <h3>1. Launch the App</h3>
+              <p>DriveMate captures the current location and prepares nearby service discovery.</p>
+            </article>
+            <article class="reveal">
+              <h3>2. Trigger SOS</h3>
+              <p>The request is sent to providers in range with the relevant incident context.</p>
+            </article>
+            <article class="reveal">
+              <h3>3. Track the Provider</h3>
+              <p>The driver sees the mechanic movement and progress on the map in real time.</p>
+            </article>
+            <article class="reveal">
+              <h3>4. Complete and Review</h3>
+              <p>The service is resolved, recorded, and available for feedback and history.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="project-panel reveal">
+            <h3>University Final Year Project</h3>
+            <div class="project-meta">
+              <div>
+                <span>Field</span>
+                <strong>Software Engineering</strong>
+              </div>
+              <div>
+                <span>Focus</span>
+                <strong>Mobile Systems</strong>
+              </div>
+              <div>
+                <span>Year</span>
+                <strong>2024</strong>
+              </div>
+              <div>
+                <span>Platform</span>
+                <strong>Android APK</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-band" id="download">
+        <div class="container download-content reveal">
+          <h2>Access DriveMate</h2>
+          <p>
+            Download the latest Android APK for DriveMate and install it on your
+            Android device to try the roadside assistance experience.
+          </p>
+          <a
+            class="button button-primary button-download"
+            href="https://github.com/ravidugunawardhana/Drive-Mate-Landing-Page/raw/main/public/app-release.apk"
+          >
+            Download App
+          </a>
+          <small>If Android warns about unknown sources, allow the install for this APK.</small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div>
+          <a class="brand" href="#top">DriveMate</a>
+          <p>&copy; 2024 DriveMate. Real-time roadside assistance for modern drivers.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#features">Features</a>
+          <a href="#showcase">Screenshots</a>
+          <a href="#timeline">How It Works</a>
+          <a href="#download">Download</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="./firebase-init.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
